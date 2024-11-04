@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kelvy\Desktop\agenda_contatos\build\windows\x64\CMakeFiles\6fd4ae0e3cbc744e3cbe411f27198836\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{886232CB-A4F2-30CA-ABA2-866EA3394322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

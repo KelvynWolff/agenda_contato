@@ -1,0 +1,28 @@
+^C:\USERS\KELVY\DESKTOP\AGENDA_CONTATOS\BUILD\WINDOWS\X64\CMAKEFILES\23EB94340DA8154784CA18ACC2F5FE66\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\kelvy\Desktop\agenda_contatos FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\kelvy\Desktop\agenda_contatos\windows\flutter\ephemeral PROJECT_DIR=C:\Users\kelvy\Desktop\agenda_contatos FLUTTER_TARGET=C:\Users\kelvy\Desktop\agenda_contatos\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\kelvy\Desktop\agenda_contatos\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KELVY\DESKTOP\AGENDA_CONTATOS\BUILD\WINDOWS\X64\CMAKEFILES\A2200CCB87CC064840ECC499486928A1\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KELVY\DESKTOP\AGENDA_CONTATOS\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/kelvy/Desktop/agenda_contatos/windows -BC:/Users/kelvy/Desktop/agenda_contatos/build/windows/x64 --check-stamp-file C:/Users/kelvy/Desktop/agenda_contatos/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

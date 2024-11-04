@@ -1,0 +1,10 @@
+^C:\USERS\KELVY\DESKTOP\AGENDA_CONTATOS\BUILD\WINDOWS\X64\CMAKEFILES\6FD4AE0E3CBC744E3CBE411F27198836\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

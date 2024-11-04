@@ -1,0 +1,1 @@
+ C:\\Users\\kelvy\\Desktop\\agenda_contatos\\.dart_tool\\flutter_build\\40e5d4cd7e270c3d7da8c6b971049d8d\\native_assets.yaml: 

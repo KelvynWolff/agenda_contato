@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\kelvy\Desktop\agenda_contatos\build\windows\x64\CMakeFiles\1f4b1e4aaca2cadcde0511d3e9cb36d8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{886232CB-A4F2-30CA-ABA2-866EA3394322}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
